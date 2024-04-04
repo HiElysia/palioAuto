@@ -168,7 +168,7 @@ function App() {
             <div className="card-body">
               <h5 className="card-title text-center">xter.io palio批量签到工具</h5>
               <div className="form-group">
-                <label htmlFor="inputText">私钥列表</label>
+                <label htmlFor="inputText">私钥列表(建议创建新钱包刷批量)</label>
                 <textarea
                   className="form-control"
                   id="pkList"
@@ -184,6 +184,11 @@ function App() {
               <div className="form-group">
                 <label htmlFor="displayText">日志输出</label>
                 <textarea class="form-control" readOnly value={LogOutput} style={{ height: '50vh' }}></textarea>
+              </div>
+              <div className="form-group">
+                <p><label htmlFor="inputText">前端源码开源: https://github.com/HiElysia/palioAuto</label></p>
+                <p><label htmlFor="inputText">后端源码开源: https://github.com/HiElysia/palioAutoBE</label></p>
+                <p><label htmlFor="inputText">作者推特: https://twitter.com/HiElysia</label></p>
               </div>
             </div>
           </div>
